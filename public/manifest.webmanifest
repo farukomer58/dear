@@ -1,0 +1,10 @@
+{
+    "name": "Ders Başlıyor!",
+    "short_name": "Ders",
+    "start_url": "./",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#1b1f24",
+    "theme_color": "#1b1f24",
+    "icons": [{ "src": "favicon.png", "sizes": "any", "type": "image/png" }]
+}

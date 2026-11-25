@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" width="360" height="280">
+  <!-- A handshake in emoji style. Each hand's fingers curl under the other hand:
+       the left hand (first) wears a silver ring, the right hand (second) a gold ring. -->
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8d939e"/>
+      <stop offset="0.45" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#9aa0ab"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c98a0c"/>
+      <stop offset="0.45" stop-color="#fff1a1"/>
+      <stop offset="1" stop-color="#d99a12"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke-linejoin="round" stroke-linecap="round" stroke-width="5" transform="translate(180 150) scale(1.15) translate(-180 -150)">
+    <!-- Sleeves -->
+    <path d="M58 152 L102 196 L18 280 L-26 236 Z" fill="#ff7a59" stroke="none"/>
+    <path d="M302 152 L258 196 L342 280 L386 236 Z" fill="#3d8bfd" stroke="none"/>
+
+    <!-- Right hand (second) palm, behind -->
+    <path d="M294 148 C 268 116, 220 106, 175 112 L 155 118 C 145 125, 145 150, 155 160
+             L 170 175 C 195 195, 230 200, 256 188 Z"
+          fill="#e8ad84" stroke="#a8673f"/>
+
+    <!-- Left hand (first) palm -->
+    <path d="M66 148 C 92 116, 140 106, 185 112 L 205 118 C 215 125, 215 150, 205 160
+             L 190 175 C 165 195, 130 200, 104 188 Z"
+          fill="#f9d7b9" stroke="#bf8a64"/>
+
+    <!-- Cuffs over the wrists -->
+    <path d="M60 140 L112 192 L98 206 L46 154 Z" fill="#ffffff" stroke="#d8ccb4" stroke-width="3"/>
+    <path d="M300 140 L248 192 L262 206 L314 154 Z" fill="#ffffff" stroke="#d8ccb4" stroke-width="3"/>
+
+    <!-- Right hand fingers curling under the left hand (bottom left) -->
+    <g fill="#e8ad84" stroke="#a8673f">
+      <rect x="93" y="156" width="25" height="44" rx="12.5" transform="rotate(20 105 178)"/>
+      <rect x="114" y="161" width="26" height="50" rx="13" transform="rotate(20 127 186)"/>
+      <rect x="136" y="166" width="26" height="50" rx="13" transform="rotate(20 149 191)"/>
+      <rect x="158" y="170" width="25" height="44" rx="12.5" transform="rotate(20 170 192)"/>
+    </g>
+    <!-- Gold ring -->
+    <rect x="112" y="176" width="30" height="11" rx="4" transform="rotate(20 127 181)"
+          fill="url(#gold)" stroke="#9a6406" stroke-width="2.5"/>
+
+    <!-- Left hand fingers curling under the right hand (bottom right) -->
+    <g fill="#f9d7b9" stroke="#bf8a64">
+      <rect x="242" y="156" width="25" height="44" rx="12.5" transform="rotate(-20 255 178)"/>
+      <rect x="220" y="161" width="26" height="50" rx="13" transform="rotate(-20 233 186)"/>
+      <rect x="198" y="166" width="26" height="50" rx="13" transform="rotate(-20 211 191)"/>
+      <rect x="177" y="170" width="25" height="44" rx="12.5" transform="rotate(-20 190 192)"/>
+    </g>
+    <!-- Silver ring -->
+    <rect x="218" y="176" width="30" height="11" rx="4" transform="rotate(-20 233 181)"
+          fill="url(#silver)" stroke="#6b717c" stroke-width="2.5"/>
+
+    <!-- Right hand thumb resting on top -->
+    <path d="M250 132 C 232 104, 188 90, 150 94 C 128 96, 126 120, 148 122
+             C 176 124, 206 132, 226 150 Z"
+          fill="#e8ad84" stroke="#a8673f"/>
+    <!-- Thumbnail -->
+    <path d="M146 100 C 138 102, 137 114, 146 115" fill="none" stroke="#a8673f" stroke-width="3"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#ffc93c">
+    <path d="M300 46 l6 14 l14 6 l-14 6 l-6 14 l-6 -14 l-14 -6 l14 -6 Z"/>
+    <path d="M56 58 l4 9 l9 4 l-9 4 l-4 9 l-4 -9 l-9 -4 l9 -4 Z"/>
+  </g>
+</svg>
