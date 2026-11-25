@@ -214,7 +214,7 @@ type Fmt<T extends unknown[] = [string]> = (...args: T) => string;
  * lesson list (tap the lesson counter, top left) without playing in order; a "TEST" badge shows.
  * Set it to `false` before giving the game away, so everything unlocks one lesson at a time.
  */
-export const UNLOCK_ALL_FOR_TESTING = true;
+export const UNLOCK_ALL_FOR_TESTING = false;
 
 export const STORY = {
     gameTitle: 'Ders\nBaşlıyor!',
